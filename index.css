@@ -75,6 +75,11 @@ nav div{
     padding-bottom: 1em;
 }
 
+nav div:active{
+    background: var(--green);
+    color: black;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;
